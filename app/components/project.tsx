@@ -1,5 +1,5 @@
 'use client'
-
+import Image from 'next/image'
 import React, { useState, useEffect } from 'react'
 
 function Project() {
@@ -150,10 +150,11 @@ function Project() {
                      {/* Project Logo */}
                      <div className="flex justify-center mb-4">
                        <div className="w-16 h-16 bg-blue-600 rounded-full flex items-center justify-center overflow-hidden">
-                         <img 
+                         <Image className="object-cover rounded-full"
                            src="/images/logo.png" 
                            alt="Project Logo" 
-                           className="w-12 h-12 object-cover rounded-full"
+                           hight = {48}
+                           width={48}
                          />
                        </div>
                      </div>
