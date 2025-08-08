@@ -153,7 +153,7 @@ function Project() {
                          <Image className="object-cover rounded-full"
                            src="/images/logo.png" 
                            alt="Project Logo" 
-                           hight = {48}
+                           height={48}
                            width={48}
                          />
                        </div>
