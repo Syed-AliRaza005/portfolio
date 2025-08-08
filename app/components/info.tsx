@@ -19,7 +19,7 @@ function Info() {
                 <p><span className="text-blue-300 font-medium">Passing Year:</span> 2022</p>
                 <p><span className="text-blue-300 font-medium">School:</span> EABGBSS</p>
                 <p><span className="text-blue-300 font-medium">Field:</span> Computer Science</p>
-                <p><span className="text-blue-300 font-medium">Grade:</span> <span className="text-green-400 font-bold">"A"</span></p>
+                <p><span className="text-blue-300 font-medium">Grade:</span> <span className="text-green-400 font-bold">{"A"}</span></p>
               </div>
             </div>
 
@@ -30,7 +30,7 @@ function Info() {
                 <p><span className="text-blue-300 font-medium">Passing Year:</span> 2024</p>
                 <p><span className="text-blue-300 font-medium">School:</span> Govt. Islamia Science College</p>
                 <p><span className="text-blue-300 font-medium">Field:</span> Pre-Engineering</p>
-                <p><span className="text-blue-300 font-medium">Grade:</span> <span className="text-green-400 font-bold">"B"</span></p>
+                <p><span className="text-blue-300 font-medium">Grade:</span> <span className="text-green-400 font-bold">{"B"}</span></p>
               </div>
             </div>
           </div>
